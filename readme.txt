@@ -5,4 +5,19 @@ To protect these, both static and dynamic scans are used constantly to protect o
 This study is an effort to analyze the impact of response time on the application using Data Mining techniques.
 The Google Cloud Platform (GCP) is used to host a sample application, which is subjected to static and dynamic scan using an industry-standard tool such as Twistlock. The user interaction response time is then recorded using the TCP/IP 3-way handshake. This data was captured to only the source and destination of the IPs involved in the response of the request while discarding re-transmission and malformed packets in the interaction. Then the collected data is compared to an Ideal scenario, where no scans are performed against captured data when static and dynamic scans are used. The data is further analyzed using industry-recommended data mining techniques and the results and observations are captured.
 This study focuses on measuring lag in the response time due to constant security scanning while accessing an application. 
-This is done by using TCP/IP 3-way handshake data capture, a data-mining technique such as hierarchical and k-means Clustering, and uses rationale on the anomalies observed such as outliers in the collected data. 
+This is done by using TCP/IP 3-way handshake data capture, a data-mining technique such as hierarchical and k-means Clustering, and uses rationale on the anomalies observed such as outliers in the collected data.
+
+The datasets folder contains .csv files which are passed asinput to our python code.
+
+1. HSCC-2023-rawdata.csv
+This csv file conatins the rawdata collected. 
+This dataset is then analyzed and then divided into three seperate csv files specifically used for each of the cases 
+
+1. HSCC-2023-Case1.csv
+This file is used for 'Control vs Minimal Scan' with and without outliers.
+
+2. HSCC-2023-Case2.csv
+This file is used for 'Control vs HardEnd Scan' with and without outliers.
+
+3. HSCC-2023-Case3.csv
+This file is used for 'Minimal vs HardEnd Scan' with and without outliers.
