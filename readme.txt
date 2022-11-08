@@ -1,4 +1,4 @@
-This is HSCC 2023 Submission Repo, for the submission of the paper entitled "Response time Lag in Accessing an Application When Exposed to Dynamic and Static Security Scans:Using Data-Mining Techniques". 
+This is HSCC 2023 Repo, for the submission of the paper entitled "Response time Lag in Accessing an Application When Exposed to Dynamic and Static Security Scans:Using Data-Mining Techniques". 
 
 The development of quicker web interfaces has enabled us a range of applications for all of our needs in communication, banking, shopping, etc. The technology and the IT infrastructure that hosts these applications is constantly evolving, there is a substantial risk of Cyber-attacks on the systems and the application.
 To protect these, both static and dynamic scans are used constantly to protect online resources from harmful attacks. As a result, the infrastructure owners and application develope must be aware that it causes latency while accessing these applications.
