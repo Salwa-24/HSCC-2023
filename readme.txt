@@ -9,7 +9,7 @@ This is done by using TCP/IP 3-way handshake data capture, a data-mining techniq
 
 The datasets folder contains .csv files which are passed asinput to our python code.
 
-1. HSCC-2023-rawdata.csv
+I. HSCC-2023-rawdata.csv
 This csv file conatins the rawdata collected. 
 This dataset is then analyzed and then divided into three seperate csv files specifically used for each of the cases 
 
@@ -21,3 +21,9 @@ This file is used for 'Control vs HardEnd Scan' with and without outliers.
 
 3. HSCC-2023-Case3.csv
 This file is used for 'Minimal vs HardEnd Scan' with and without outliers.
+
+II. HSCC-2023-k-Means_Clustering.py
+This file contains k-Means clustering python code along with QQ plot and KS-Test. The results obtained are tabulated in the paper.
+
+III. HSCC-2023-Hirearichal_Clustering.py
+This file contains Hierarchical Clustering python code, the results obtained are tabulated in the paper.
