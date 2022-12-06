@@ -13,7 +13,7 @@ This file contains k-Means clustering python code, whose results are tabulated i
 III. Datasets 
 
 1. HSCC-2023-rawdata.csv
-This csv file conatins the rawdata collected. This dataset is then analyzed and then divided into three seperate csv files specifically used for each of the cases 
+This csv file conatins the rawdata collected. This dataset is then analyzed and then divided into three seperate csv files specifically used for each of the cases. The rawdata involves the captures taken while uploading 100Mb and 300Mb files to the cloud.
 
 2. HSCC-2023-kstest.csv
 This file is used within the k-Means clustering code, which results in giving Statistics and p-value tabulated in Table V. 
