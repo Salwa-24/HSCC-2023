@@ -14,13 +14,13 @@ The datasets folder contains .csv files which are passed asinput to our python c
 ## Prerequisites
 
 1. Visual Studio Code
-2. Python 
+2. Python 3
 
 ## Steps to Reproduce the code
 
 1. Visit our URL for Github Repository.
 2. Download the zip file of our code. 
-3. Open Visual Studio Code and using python commands pip install the packages via the requirements.txt file.
+3. Open Visual Studio Code and using python commands pip install the packages via the requirements.txt file, by typing the command `pip3 install -r requirements.txt` in the terminal.
 4. Run the Python files and the results are reproduced.
 5. More information about the graphs and values tabulated in the tables are in brief documented in readme.txt.
 
